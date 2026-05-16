@@ -1,5 +1,6 @@
-flask
+Flask
 flask-cors
-psutil
-peewee
-python-dotenv
+gunicorn
+numpy
+opencv-python
+torch
