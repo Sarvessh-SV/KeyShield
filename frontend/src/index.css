@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #020617;
+  --color-surface: #0f172a;
+  --color-primary: #0ea5e9;
+  --color-secondary: #22d3ee;
+  --color-accent: #6366f1;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+  --color-success: #10b981;
+
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-radar: radar 2s linear infinite;
+
+  @keyframes radar {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-slate-200 font-['Inter'] overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl;
+  }
+  
+  .glass-card-hover {
+    @apply hover:bg-white/10 transition-all duration-300;
+  }
+
+  .cyber-gradient {
+    @apply bg-gradient-to-br from-primary/20 via-background to-secondary/10;
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
+  }
+
+  .glow-red {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+  }
+}
+
+.radar-sweep {
+  background: conic-gradient(from 0deg, rgba(14, 165, 233, 0.4) 0deg, transparent 90deg);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
