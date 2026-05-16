@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KeyShield - Advanced Keystroke Protection System
 
 KeyShield is a professional-grade cybersecurity application designed to detect and prevent keylogging activities using heuristic behavioral analysis.
@@ -70,3 +71,7 @@ KeyShield doesn't rely on a database of known malware signatures. Instead, it us
 
 ## Disclaimer
 KeyShield is a security tool designed for monitoring and educational purposes. For full system protection, always use it alongside a primary Antivirus solution.
+=======
+# KeyShield
+Real-time keylogger detection and behavioral threat monitoring platform.
+>>>>>>> 7426279e1935e9f3606b7761204fb97c296bc8a7
