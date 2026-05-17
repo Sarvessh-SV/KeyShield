@@ -2,10 +2,8 @@ import React from 'react';
 import { 
   Shield, 
   LayoutDashboard, 
-  Activity, 
-  List, 
+  Activity,  
   Settings, 
-  AlertTriangle,
   FileText,
   Terminal
 } from 'lucide-react';
