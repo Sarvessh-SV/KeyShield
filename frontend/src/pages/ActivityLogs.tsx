@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FileText, Download, Filter, Trash2 } from 'lucide-react';
+import { Download, Trash2 } from 'lucide-react';
 import { getLogs } from '../api';
 
 const ActivityLogs: React.FC = () => {

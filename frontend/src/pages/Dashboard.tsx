@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { 
   ShieldAlert, 
   Cpu, 
-  HardDrive, 
-  Search, 
-  Activity,
-  Zap
+  HardDrive,  
+  Activity
 } from 'lucide-react';
 import { 
   AreaChart, 

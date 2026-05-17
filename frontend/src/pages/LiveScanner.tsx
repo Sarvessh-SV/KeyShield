@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Terminal, Search, Cpu, RefreshCw } from 'lucide-react';
+import { Search, Cpu, RefreshCw } from 'lucide-react';
 import { getProcesses } from '../api';
 
 const LiveScanner: React.FC = () => {
